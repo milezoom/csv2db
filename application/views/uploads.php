@@ -19,6 +19,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <br/><br/>
     <input type="submit" value="upload" />
     </form>
-    For example csv format, click <a href="<?php echo site_url('Upload/download_example') ?>">here</a>
+    For example csv format, click <a href="<?php echo site_url('Upload/download_example') ?>">here</a>.
 </body>
 </html>
