@@ -50,7 +50,7 @@ class Upload extends CI_Controller
                     $row = array(
                         'date' => date('Y-m-d', strtotime($date)),
                         'category' => $data[1],
-                        'target' => $data[2],
+                        'target' => intval($data[2]),
                     );
                     $this->db->insert('imported', $row);
                 }
